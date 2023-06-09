@@ -30,7 +30,7 @@ function listNFTs () {
     for (let i = 0; i < NFTs.length; i++) {
         console.log("\nID: "+(i+1))
         console.log("Name: \t\t"+NFTs[i].name);
-        console.log("Eyecolor: \t"+NFTs[i].color);
+        console.log("Eyecolor: \t"+NFTs[i].eyeColor);
         console.log("Shirt Type: \t"+NFTs[i].shirtType);
         console.log("Bling: \t\t"+NFTs[i].bling);
 
@@ -45,7 +45,7 @@ function getTotalSupply() {
 
 // call your functions below this line
 mintNFT("John", "Red", "Hoodie", "Gold Chain");
-mintNFT("Sam", "Blue", "Hoodie", "Gold Chain");
-mintNFT("Bill", "Green", "Hoodie", "Gold Chain");
+mintNFT("Sam", "Blue", "Hoodie", "Silver Chain");
+mintNFT("Bill", "Green", "Hoodie", "Sapphire Chain");
 listNFTs();
 getTotalSupply();
